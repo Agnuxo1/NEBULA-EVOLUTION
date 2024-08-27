@@ -79,6 +79,7 @@ A fundamental component of Nebula is its capacity for self-evaluation and self-m
 Nebula represents an innovative approach towards Artificial General Intelligence (AGI), with the ultimate goal of creating a system that can learn, adapt, and evolve autonomously, getting closer and closer to the complexity and versatility of human intelligence.
 
 
+![napkin-selection](https://github.com/user-attachments/assets/c2231225-a96c-4701-8378-6c7ad2d3ceed)
 
 
 
@@ -88,6 +89,7 @@ Abstract:
 This paper presents Nebula, a novel neural network architecture inspired by the principles of optical physics and quantum computing. Nebula utilizes simulated neurons that interact through light signals, mimicking optical processes like refraction, reflection, and interference. Additionally, each neuron is coupled with a system of qubits, leveraging quantum properties like superposition and entanglement to enhance information processing and communication. This hybrid architecture, combining classical and quantum computing, aims to overcome the limitations of traditional neural networks and pave the way for more efficient and robust artificial intelligence.
 
 
+![napkin-selection (1)](https://github.com/user-attachments/assets/c8086c6c-504f-4f02-b7c1-978372e3cb4c)
 
 
 
@@ -135,6 +137,8 @@ Perform quantum operations: Qubits can be manipulated using quantum gates, which
 Communicate instantaneously through entanglement: Two entangled qubits can share information instantaneously, regardless of the distance separating them. This allows for fast and efficient communication between distant neurons in the network.
 
 
+![napkin-selection (2)](https://github.com/user-attachments/assets/02682c40-0335-43b3-8ed9-ed0feaa0f2ba)
+
 
 
 Example Code (Python with PennyLane):
@@ -169,6 +173,9 @@ class QuantumNeuron:
 Instantaneous Communication through Entanglement:
 Quantum entanglement allows neurons in Nebula to communicate instantaneously, regardless of distance. When two neurons are entangled, the state of their qubits is correlated, such that measuring one qubit instantly affects the state of the other qubit.
 For example, if two neurons at opposite ends of the network are entangled, one neuron can "send" information to the other simply by changing the state of its own qubits. The other neuron can then "receive" this information by measuring the state of its entangled qubits.
+
+
+![napkin-selection (3)](https://github.com/user-attachments/assets/2ac8d261-38d6-4383-b352-91759ebcde87)
 
 
 Example Code (Python with PennyLane):
@@ -207,9 +214,7 @@ The development of Artificial General Intelligence (AGI) requires the creation o
 Nebula addresses this challenge through a hierarchical architecture that organizes neurons into larger, specialized processing units. This structure allows for scalability to massive neural networks while reducing computational load and memory requirements. Additionally, Nebula incorporates principles of optical physics and quantum computing to enhance the efficiency and processing power of the network.
 
 
-
-
-
+![napkin-selection (5)](https://github.com/user-attachments/assets/4bc078df-f2ae-4a1c-981a-ee3600eaa818)
 
 
 
@@ -364,6 +369,7 @@ Abstract:
 This paper presents the implementation of a holographic memory system for Nebula, a quantum-optical neural network architecture. This system allows for storing and retrieving the complete state of a massive neural network, which can include billions of neurons, in milliseconds. Holographic encoding leverages the ability of holograms to store three-dimensional information in a two-dimensional medium, while decoding is performed using convolutional neural networks (CNNs) and three-dimensional fast Fourier transforms (3D FFTs). This technique enables efficient memory management, crucial for developing large-scale AI systems.
 
 
+![napkin-selection (6)](https://github.com/user-attachments/assets/98f2f247-5fb9-4836-9419-8b5cb7c6f57a)
 
 
 
@@ -526,6 +532,7 @@ The pursuit of Artificial General Intelligence (AGI) leads us to explore new par
 This paper details Nebula's neural evolution mechanisms, based on generating new neurons represented by molecules and simulating their interactions to form connections, mimicking protein formation and biological neural development. Additionally, it explores Nebula's ability to analyze its own code, identify areas for improvement, and generate modifications, driving continuous self-improvement.
 
 
+![napkin-selection (7)](https://github.com/user-attachments/assets/4626019f-9f7f-4470-a34c-4223433a7a00)
 
 
 
@@ -624,12 +631,9 @@ def analyze_code(code_snippet: str, goal: str) -> dict:
 
     prompt = f"""Evaluate the following Python code for efficiency, accuracy, and creativity:
 
-```python
+
 {code_snippet}
     
-
-
-
 Goal: {goal}"""
 
       llm_evaluation = generate_text_gpt(prompt, llm_tokenizer, llm_model)
@@ -639,10 +643,6 @@ except Exception as e:logger.error(f"Error evaluating code: {e}")return {"pylint
 
 def generate_code_modifications(code_snippet: str, goal: str) -> str:"""Generates code modifications using an LLM."""prompt = f"""Suggest Python code modifications to improve the following code snippet
 {code_snippet}
-    
-
-
-
 Goal: {goal}
 
 Provide the modified code snippet:
@@ -674,6 +674,10 @@ Multidimensionality: NebulaSpace transcends the limitations of two-dimensional o
 Continuous Representation: Neurons are not confined to discrete grid points but exist in a continuous space, allowing for nuanced positioning and flexible connections.
 Light-Based Interaction: Neurons communicate and influence each other through simulated light signals, mimicking the efficiency and speed of light in physical systems. The intensity of light emitted by a neuron reflects its activation level, and this light propagates through the NebulaSpace, influencing the state of neighboring neurons.
 Dynamic Reconfiguration: The structure of NebulaSpace is not static but evolves over time based on the interactions and learning patterns of the neurons. This dynamic reconfiguration allows Nebula to adapt to new information and optimize its processing capabilities.
+
+
+![napkin-selection (8)](https://github.com/user-attachments/assets/d0d36572-794d-4741-87bb-3c56f07f79cc)
+
 
 
 Functionality:
@@ -758,6 +762,9 @@ Artificial General Intelligence (AGI) requires systems that can handle diverse t
 This paper details the components of Nebula's MoE system, including the central core with its "director" LLM and the sectors with their specialized LLMs. It describes how these LLMs are continuously fine-tuned to learn, evolve, and fuse with Nebula's neural network, creating a powerful synergy between symbolic reasoning and distributed neural processing.
 
 
+![napkin-selection (9)](https://github.com/user-attachments/assets/50fa61dd-d708-4600-a641-22fa767a8c1a)
+
+
 Central Core and the "Director" LLM:
 The central core of Nebula is responsible for communication, coordination, and high-level decision-making. It houses an LLM specialized in:
 Communication: Interpreting user inputs, formulating questions to the sectors, and synthesizing responses into a comprehensible format.
@@ -790,6 +797,7 @@ class NebulaCore:
         # Monitors the progress of the sectors in their tasks.
     
 
+![napkin-selection (12)](https://github.com/user-attachments/assets/0e5cb744-80d6-4aa1-aefb-379673ed1512)
 
 
 Sectors and Specialized LLMs:
@@ -816,12 +824,18 @@ Example Code (Python):
         # Processes the task using the specialized LLM and the sector's knowledge base.
     
 
+
+
+
+
 Continuous Fine-Tuning and LLM-Neural Fusion.
 The LLMs in Nebula are not static; they are continuously fine-tuned to:
 Learn: Incorporate new knowledge and improve their understanding of their specific domain.
 Evolve: Adapt to changes in the structure and behavior of Nebula's neural network.
 Fuse: Integrate their symbolic knowledge with Nebula's distributed neural processing.
 LLM-neural fusion is achieved by translating the LLM's symbolic knowledge into representations that can be processed by the neural network. For example, text embeddings generated by the LLM can be used as input for neurons, or the parameters of a neuron's quantum circuit can be adjusted based on the LLM's output.
+
+
 
 
 Example Code (Python):
@@ -837,6 +851,10 @@ def fuse_llm_with_neuron(self, neuron, llm_output):
     # 1. Process the LLM's output to obtain a suitable representation.
     # 2. Adjust the neuron's parameters based on the LLM's output.
     
+
+
+![napkin-selection (10)](https://github.com/user-attachments/assets/38b89e30-ce3d-4fd4-ba1e-74feec9dcb88)
+
 
 
 Benefits of the MoE System:
